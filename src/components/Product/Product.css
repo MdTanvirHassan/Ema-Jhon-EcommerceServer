@@ -1,0 +1,17 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+.product-name{
+    margin-left: 20px;
+    padding-left: 5px;
+    color:;
+    font-weight: 400;
+    text-align: justify;
+}
+.product-name h4{
+    color:blue
+}
