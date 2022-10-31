@@ -22,6 +22,7 @@
     height: 30px;
     border: 1px solid gray;
     border-radius: 5px;
+    cursor:pointer;
 }
 .add-btn:hover{
     background-color: goldenrod;
