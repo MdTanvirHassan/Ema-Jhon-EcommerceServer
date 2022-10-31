@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
  import fakeData from '../../fakeData';
+import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
  import './Shop.css';
 
@@ -28,13 +29,7 @@ const Shop = () => {
             </div>
 
             <div className="chart-container">
-                <h1>Oder Summary</h1>
-                <h5>Items Ordered: <span style={{color:"red"}}>{cart.length}</span></h5>
-                <h5>Items: <span style={{color:"red"}}>${cart.length}</span></h5>
-                <h5>shipping & handling: <span style={{color:"red"}}>${cart.length}</span></h5>
-                <h5>Total before Tax: <span style={{color:"red"}}>${cart.length}</span></h5>
-                <h5>Estimated Tax: <span style={{color:"red"}}>${cart.length}</span></h5>
-                <h3>Order Total: ${cart.length}</h3>
+                <Cart cart={cart}> </Cart>
             </div>
            
              
