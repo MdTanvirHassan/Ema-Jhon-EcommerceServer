@@ -8,10 +8,22 @@
 .product-name{
     margin-left: 20px;
     padding-left: 5px;
-    color:;
+    padding-bottom: 5px;
     font-weight: 400;
     text-align: justify;
 }
 .product-name h4{
     color:blue
+}
+.add-btn{
+    background-color: gold;
+    padding: 5 px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.add-btn:hover{
+    background-color: goldenrod;
+    color: lightblue;
 }
