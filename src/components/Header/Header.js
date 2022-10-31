@@ -11,6 +11,8 @@ const Header = () => {
                 <a href='/logo'>Shop</a>
                 <a href='/review'>Order review</a>
                 <a href='/manage'>Manage Inventory</a>
+                <input id='search' type="text" placeholder='Search' />
+                <button className='srcBtn'>Search</button>
            </nav>
         </div>
     );

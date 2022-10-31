@@ -19,3 +19,37 @@ nav a{
 nav a:hover{
     background: gray;
 }
+#search{
+    margin-left: 20vh;
+    width: 50vh;
+    padding-left: 10px;
+    line-height: 20px;
+    margin-top: -10px;
+    font-size: 20px;
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+#search:hover{
+    border: 2px solid greenyellow;
+}
+input[type='text']:focus {
+    font-size: 20px;
+    border: 2px solid greenyellow;
+    color: blue;
+    background:  lightgoldenrodyellow;
+}
+.srcBtn{
+    margin-top: -15px;
+    margin-left:10px ;
+    background-color: gold;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor:pointer;
+    
+}
+.srcBtn:hover{
+    background-color: goldenrod;
+    color: lightblue;
+    border: 1px solid greenyellow
+}
